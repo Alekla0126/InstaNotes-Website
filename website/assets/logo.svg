@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9C51" />
+      <stop offset="100%" stop-color="#F92B85" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#gradient)" opacity="0.95" />
+  <g fill="white" transform="translate(106, 106) scale(0.6)">
+    <path d="M128 0C57.308 0 0 57.308 0 128s57.308 128 128 128 128-57.308 128-128S198.692 0 128 0zm0 240c-61.757 0-112-50.243-112-112S66.243 16 128 16s112 50.243 112 112-50.243 112-112 112z"/>
+    <path d="M128 32c-53.02 0-96 42.98-96 96s42.98 96 96 96 96-42.98 96-96-42.98-96-96-96zm0 176c-44.183 0-80-35.817-80-80s35.817-80 80-80 80 35.817 80 80-35.817 80-80 80z"/>
+    <rect x="112" y="64" width="32" height="128" rx="16" />
+    <rect x="64" y="112" width="128" height="32" rx="16" />
+  </g>
+  <g fill="white" transform="translate(156, 320)">
+    <path d="M10 0 L50 0 L50 20 L30 20 L30 100 L10 100 Z" />
+    <path d="M60 0 L80 0 L80 100 L60 100 Z" />
+    <path d="M100 0 L150 0 L150 20 L120 20 L120 40 L145 40 L145 60 L120 60 L120 80 L150 80 L150 100 L100 100 Z" />
+    <path d="M160 0 L210 0 L210 20 L180 20 L180 40 L205 40 L205 60 L180 60 L180 80 L210 80 L210 100 L160 100 Z" />
+  </g>
+</svg> 

@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
     const footerYear = document.querySelector('footer p');
     if (footerYear) {
-        footerYear.innerHTML = `&copy; ${currentYear} InstaNotes. All rights reserved.`;
+        footerYear.innerHTML = `&copy; ${currentYear} SmartNotes AI. All rights reserved.`;
     }
 
     // Add hover effect to buttons

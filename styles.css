@@ -59,6 +59,95 @@ h1 {
     opacity: 0.9;
 }
 
+/* Subscription Plans Styles */
+.subscription-plans {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.subscription-plans h2 {
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.subscription-plans h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 3px;
+}
+
+.plan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.plan {
+    background-color: var(--card-background);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    flex: 1 1 300px;
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.plan-id {
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.plan-benefits {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.plan-benefits ul {
+    list-style-type: none;
+}
+
+.plan-benefits li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.plan-benefits li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.plan-availability, .plan-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +264,25 @@ footer {
     font-style: italic;
 }
 
+/* Dark Mode Adjustments for Subscription Plans */
+.dark-mode .plan {
+    background-color: var(--card-background);
+}
+
+.dark-mode .plan h3 {
+    color: var(--primary-color);
+}
+
+.dark-mode .plan-benefits li:before {
+    color: var(--primary-color);
+}
+
+.dark-mode .plan-id,
+.dark-mode .plan-availability,
+.dark-mode .plan-date {
+    color: #999;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .container {
@@ -194,7 +302,11 @@ footer {
         height: 40px;
     }
     
-    .card {
+    .card, .plan {
         padding: 1.5rem;
+    }
+    
+    .plan-container {
+        gap: 1rem;
     }
 } 

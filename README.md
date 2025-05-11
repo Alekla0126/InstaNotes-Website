@@ -1,11 +1,11 @@
-# InstaNotes Legal Pages
+# SmartNotes AI Legal Pages
 
-This folder contains a complete, standalone website for the Terms of Service and Privacy Policy pages for InstaNotes.
+This folder contains a complete, standalone website for the Terms of Service and Privacy Policy pages for SmartNotes AI.
 
 ## Features
 
 - Modern, responsive design that works on all devices
-- Gradient branding consistent with the InstaNotes app
+- Gradient branding consistent with the SmartNotes AI app
 - Interactive elements with subtle animations
 - Dark mode toggle with user preference memory
 - Complete terms and privacy policy templates
@@ -58,6 +58,6 @@ These pages explicitly address Google Play's requirements for apps with subscrip
 
 ## Credits
 
-Created for InstaNotes, an AI-powered note-taking application.
+Created for SmartNotes AI, an AI-powered note-taking application.
 
-© 2025 InstaNotes. All rights reserved. 
+© 2025 SmartNotes AI. All rights reserved. 
